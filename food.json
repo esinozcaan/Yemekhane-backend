@@ -72,7 +72,7 @@
         { "name": "Pirinç Pilavı", "calories": 420, "price": 33 },
         { "name": "Nohutlu Pilav", "calories": 410, "price": 33 },
         { "name": "Mantarlı Makarna", "calories": 255, "price": 33 },
-        { "name": "Napoliten soslu spagetti", "calories": 230, "price": 33 },
+        { "name": "Spagetti", "calories": 230, "price": 33 },
         { "name": "Zeytinyağlı Taze Fasulye", "calories": 135, "price": 33 },
         { "name": "Salçalı Boncuk Makarna", "calories": 265, "price": 33 },
         { "name": "Havuçlı Pilav", "calories": 395, "price": 33 },
@@ -124,6 +124,7 @@
         { "name": "Supangle", "calories": 515, "price": 33},
         { "name": "Bülbül Yuvası", "calories": 385, "price": 33},
         { "name": "Helva", "calories": 281, "price": 33},
+        { "name": "Ekmek Kadayıfı", "calories": 177, "price": 33},
         { "name": "Kabak Tatlısı", "calories": 275, "price": 33}
       ],
       "içecek": [
@@ -136,6 +137,7 @@
         { "name": "Meyve Suyu", "calories": 94, "price": 33 },
         { "name": "Link Meyve Suyu", "calories": 98, "price": 33 },
         { "name": "Komposto", "calories": 155, "price": 33 },
+        { "name": "Maden Suyu", "calories": 0, "price": 33 },
         { "name": "Cacık", "calories": 110, "price": 33 },
         { "name": "Gazoz", "calories": 106, "price": 33}
       ],
@@ -155,7 +157,9 @@
         { "name": "Mısırlı Çoban Salata", "calories": 85, "price": 33 },
         { "name": "Zeytinyağlı Sebze Salatası", "calories": 120, "price": 33 },
         { "name": "Yoğurtlu Semizotu Salatası", "calories": 120, "price": 33 },
-        { "name": "Büyük Boy Salata", "calories": 250, "price": 92 }
+        { "name": "Yoğurtlu Patates Püresi", "calories": 120, "price": 33 },
+        { "name": "Büyük Boy Salata", "calories": 250, "price": 92 },
+        { "name": "Patlıcanlı Meze", "calories": 100, "price": 33 }
       ],
       "yogurt": [
           {"name": "Yoğurt", "calories": 126, "price": 33}
