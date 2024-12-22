@@ -8,6 +8,7 @@ from io import BytesIO
 from fastapi.responses import FileResponse
 from ultralytics import YOLO
 from PIL import Image
+import json
 
 app = FastAPI()
 
@@ -16,7 +17,7 @@ PORT = 3001
 BASE_DIR = os.path.expanduser("~")  
 
 # Model dosya yolunu belirle
-MODEL_PATH = os.path.join(BASE_DIR, "Desktop", "best.pt") 
+MODEL_PATH = "best.pt"
 
 # Modeli yükle ve hata kontrolü ekle
 def load_my_model():
@@ -35,7 +36,8 @@ except Exception as e:
 
 # Dinamik olarak JSON dosyasının yolunu belirleyelim
 
-PLANTS_JSON_PATH = os.path.join(BASE_DIR, "Desktop", "food.json") 
+with open("food.json", "r", encoding="utf-8") as file:
+    food_classes = json.load(file)
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
@@ -62,9 +64,3 @@ async def predict(file: UploadFile = File(...)):
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
-
-if __name__ == "__main__":
-    print("\n" + "=" * 50)
-    print(f"Server will be available at PORT: {PORT}")
-    print("=" * 50 + "\n")
-    uvicorn.run("main:app", host='0.0.0.0', port=PORT, reload=True)
