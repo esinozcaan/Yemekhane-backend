@@ -1,221 +1,983 @@
-
-
-
-{
-    "menu_items": {
-    "ana_yemek":{
-      "etli_yemek": [
-        { "name": "Izgara Köfte", "calories": 370, "price": 100 },
-        { "name": "Tavuk Sote", "calories": 345, "price": 100 },
-        { "name": "Patlıcan Musakka", "calories": 300, "price": 100 },
-        { "name": "Tavuk Döner", "calories": 480, "price": 100 },
-        { "name": "İzmir Köfte", "calories": 385, "price": 100 },
-        { "name": "Piliç Graten", "calories": 330, "price": 100 },
-        { "name": "Etli Kuru Fasulye", "calories": 315, "price": 100 },
-        { "name": "Etli Bezelye", "calories": 270, "price": 100 },
-        { "name": "Tavuk Biftek Izgara", "calories": 345, "price": 100 }, 
-        { "name": "Etli Patates", "calories": 285, "price": 100 },
-        { "name": "Karışık Musakka", "calories": 320, "price": 100 },
-        { "name": "Piliç Nugget", "calories": 430, "price": 100 },
-        { "name": "Sulu Köfte", "calories": 395, "price": 100 },
-        { "name": "Kağıt Kebabı", "calories": 435, "price": 100 },
-        { "name": "Et Döner", "calories": 415, "price": 100 },
-        { "name": "Köri Soslu Piliç", "calories": 320, "price": 100 }, 
-        { "name": "Gondol Köfte", "calories": 335, "price": 100 },
-        { "name": "Ali Nazik", "calories": 340, "price": 100 }, 
-        { "name": "Hasan Paşa Köfte", "calories": 320, "price": 100 },
-        { "name": "Kayseri Mantısı", "calories": 485, "price": 100 },
-        { "name": "Tavuk Kroket", "calories": 442, "price": 100 },
-        { "name": "Püreli Rosto Köfte", "calories": 315, "price": 100 },
-        { "name": "Sebzeli Tavuk Sote", "calories": 430, "price": 100 },
-        { "name": "İçli Köfte", "calories": 233, "price": 100 },
-        { "name": "Sahan Köfte", "calories": 360, "price": 100 },
-        { "name": "Soslu Köfte", "calories": 275, "price": 100 },
-        { "name": "Fırın Kanat", "calories": 360, "price": 100 },
-        { "name": "Fırın But", "calories": 410, "price": 100 },
-        { "name": "Izgara Biftek", "calories": 345, "price": 100 },
-        { "name": "Piliç Julien", "calories": 345, "price": 100 },
-        { "name": "Etli Çerkez Kebabı", "calories": 266, "price": 100 },   
-        { "name": "Tas Kebabı", "calories": 400, "price": 100 },
-        { "name": "Piliç Şiş", "calories": 326, "price": 100 },
-        { "name": "Rosto Köfte", "calories": 235, "price": 100 },
-        { "name": "Fırın Baget", "calories": 330, "price": 100 },
-        { "name": "Arnavut Ciğeri", "calories": 370, "price": 100 },  
-        { "name": "Tavuk Julien", "calories": 280, "price": 100 },  
-        { "name": "Kır Köftesi", "calories": 360, "price": 100 },
-        { "name": "Orman Kebabı", "calories": 295, "price": 100 },
-        { "name": "Püreli Tavuk Izgara", "calories": 420, "price": 100 },
-        { "name": "Tavuklu Patates Yemeği", "calories": 420, "price": 100 },
-        { "name": "Püreli Tavuk", "calories": 410, "price": 100 },
-        { "name": "Balık Tava", "calories": 370, "price": 100 },
-        { "name": "Lahmacun", "calories": 449, "price": 100 },
-        { "name": "Mantarlı Tavuk", "calories": 360, "price": 100 },
-        { "name": "Etli Nohut", "calories": 320, "price": 100 }
-      ],
-      "etsiz_yemek":[
-        { "name": "Barbunya", "calories": 260, "price": 100 },
-        { "name": "Kuru Fasulye", "calories": 260, "price": 100 },
-        { "name": "Pırasa", "calories": 200, "price": 100 },
-        { "name": "Karnabahar Graten", "calories": 220, "price": 100 },
-        { "name": "Fırın Patates", "calories": 326, "price": 100 },
-        { "name": "Fırın Nohut", "calories": 320, "price": 100 },
-        { "name": "Yaprak Sarma", "calories": 210, "price": 100 },
-        { "name": "Taze Fasulye", "calories": 165, "price": 100 },
-        { "name": "Ispanak", "calories": 210, "price": 100 },
-        { "name": "Dolma", "calories": 222, "price": 100 },
-        { "name": "Karışık Kızartma", "calories": 405, "price": 100 }
-      ]
-    },
-      "yardımcı_yemek": {
-      "yan_yemek": [
-        { "name": "Bulgur Pilavı", "calories": 270, "price": 33 },
-        { "name": "Pirinç Pilavı", "calories": 420, "price": 33 },
-        { "name": "Nohutlu Pilav", "calories": 410, "price": 33 },
-        { "name": "Mantarlı Makarna", "calories": 255, "price": 33 },
-        { "name": "Napoliten soslu spagetti", "calories": 230, "price": 33 },
-        { "name": "Zeytinyağlı Taze Fasulye", "calories": 135, "price": 33 },
-        { "name": "Salçalı Boncuk Makarna", "calories": 265, "price": 33 },
-        { "name": "Havuçlı Pilav", "calories": 395, "price": 33 },
-        { "name": "Soslu Makarna", "calories": 265, "price": 33 },
-        { "name": "Su Böreği", "calories": 363, "price": 33 },
-        { "name": "Pizza", "calories": 360, "price": 33 },
-        { "name": "Turşulu Patates Salatası", "calories": 240, "price": 33 }
-      ],
-      "çorba": [
-        { "name": "Mercimek Çorbası", "calories": 155, "price": 26 },
-        { "name": "Ezogelin Çorbası", "calories": 165, "price": 26 },
-        { "name": "Sebze Çorbası", "calories": 120, "price": 26 },
-        { "name": "Analı Kızlı Çorbas", "calories": 155, "price": 26 },
-        { "name": "Tel Şehriye Çorbası", "calories": 160, "price": 26 },
-        { "name": "Patates Ezme Çorbası", "calories": 160, "price": 26 },
-        { "name": "Patates Çorbası", "calories": 150, "price": 26 },
-        { "name": "Yayla Çorbası", "calories": 140, "price": 26 },
-        { "name": "Domates Çorbası", "calories": 150, "price": 26 },
-        { "name": "Ayranaşı Çorbası", "calories": 160, "price": 26 },
-        { "name": "Kremalı Mantar Çorbası", "calories": 105, "price": 26 },
-        { "name": "Kremalı Ispanak Çorbası", "calories": 120, "price": 26 },
-        { "name": "Yeşil Mercimek Çorbası", "calories": 160, "price": 26 }
-      ],
-      "tatlı": [
-        { "name": "Şam Tatlısı", "calories": 430, "price": 33 },
-        { "name": "Fırın Sütlaç", "calories": 300, "price": 33 },
-        { "name": "Çikolatalı Muss", "calories": 275, "price": 33},
-        { "name": "Browni", "calories": 319, "price": 33},
-        { "name": "Puding", "calories": 500, "price": 33},
-        { "name": "Burma Kadayıf", "calories": 390, "price": 33},
-        { "name": "Havuç Dilimi", "calories": 319, "price": 33},
-        { "name": "Trileçe", "calories": 301, "price": 33},
-        { "name": "Tulumba", "calories": 366, "price": 33},
-        { "name": "Sütlaç", "calories": 220, "price": 33},
-        { "name": "Meyveli Muhallebi", "calories": 250, "price": 33},
-        { "name": "Revani", "calories": 430, "price": 33},
-        { "name": "Sütlü Nuriye", "calories": 369, "price": 33},
-        { "name": "Dilim Pasta", "calories": 420, "price": 33},
-        { "name": "Çikolatalı Baklava", "calories": 368, "price": 33},
-        { "name": "Çikolatalı İrmik Tatlısı", "calories": 405, "price": 33},
-        { "name": "Şekerpare", "calories": 295, "price": 33},
-        { "name": "Kakaolu Dilim Pasta", "calories": 295, "price": 33},
-        { "name": "Kadayıf", "calories": 350, "price": 33},
-        { "name": "Şöbiyet", "calories": 370, "price": 33},
-        { "name": "Has Bahçe Tatlısı", "calories": 405, "price": 33},
-        { "name": "Kıbrıs Tatlısı", "calories": 300, "price": 33},
-        { "name": "Maraş Halka", "calories": 305, "price": 33},
-        { "name": "Baklava", "calories": 370, "price": 33},
-        { "name": "Supangle", "calories": 515, "price": 33},
-        { "name": "Bülbül Yuvası", "calories": 385, "price": 33},
-        { "name": "Helva", "calories": 281, "price": 33},
-        { "name": "Kabak Tatlısı", "calories": 275, "price": 33}
-      ],
-      "içecek": [
-        { "name": "Ayran", "calories": 80, "price": 33 },
-        { "name": "Limonata", "calories": 73, "price": 33 },
-        { "name": "Kola", "calories": 106, "price": 33 },
-        { "name": "Şalgam", "calories": 90, "price": 33},
-        { "name": "Portakallı Gazoz", "calories": 106, "price": 33},
-        { "name": "Soğuk Çay", "calories": 55, "price": 33 },
-        { "name": "Meyve Suyu", "calories": 94, "price": 33 },
-        { "name": "Link Meyve Suyu", "calories": 98, "price": 33 },
-        { "name": "Komposto", "calories": 155, "price": 33 },
-        { "name": "Cacık", "calories": 110, "price": 33 },
-        { "name": "Gazoz", "calories": 106, "price": 33}
-      ],
-      "meyve": [
-        { "name": "Armut", "calories": 110, "price": 33 },
-        { "name": "Elma", "calories": 78, "price": 33 },
-        { "name": "Muz", "calories": 104, "price": 33 },
-        { "name": "Portakal", "calories": 62, "price": 33 },
-        { "name": "Mandalina (2adet)", "calories": 90, "price": 33 }
-      ],
-      "salata": [
-        { "name": "Salata", "calories": 105, "price": 33 },
-        { "name": "Mevsim Salata", "calories": 85, "price": 33 },
-        { "name": "Amerikan Salatası", "calories": 245, "price": 33 },
-        { "name": "Söğüş Salata", "calories": 40, "price": 33 },
-        { "name": "Turşu", "calories": 28, "price": 33 },
-        { "name": "Mısırlı Çoban Salata", "calories": 85, "price": 33 },
-        { "name": "Zeytinyağlı Sebze Salatası", "calories": 120, "price": 33 },
-        { "name": "Yoğurtlu Semizotu Salatası", "calories": 120, "price": 33 },
-        { "name": "Büyük Boy Salata", "calories": 250, "price": 92 }
-      ],
-      "yogurt": [
-          {"name": "Yoğurt", "calories": 126, "price": 33}
-        ],
-        "Aperatif": [
-          { "name": "Çiğköfte", "calories": 200, "price": 33 },
-          { "name": "Kısır", "calories": 179, "price": 33 }
-        ]
-    },
-      "su": [
-          {"name": "Su", "calories": 0, "price": 5}
-        ],
-        "ekmek": [
-          {"name": "Tam Buğday Ekmeği", "calories": 126, "price": 5},
-          {"name": "Beyaz Ekmek", "calories": 128, "price": 5}
-        ]
-
-    },
-    "menu_definitions": {
-      "fix_menü": {
-        "description": "1 Ana Yemek, 3 Yan Yemek, 1 Su, 1 Ekmek",
-        "items": [
-          { "category": "ana_yemek", "quantity": 1 },
-          { "category": "yardımcı_yemek", "quantity": 3 },
-          { "category": "su", "quantity": 1 },
-          { "category": "ekmek", "quantity": 1 }
-        ],
-        "price": 132
-      },
-      "menü_1": {
-        "description": "1 Ana Yemek, 1 Yan Yemek, 1 Su, 1 Ekmek",
-        "items": [
-            { "category": "ana_yemek", "quantity": 1 },
-            { "category": "yardımcı_yemek", "quantity": 1 },
-            { "category": "su", "quantity": 1 },
-            { "category": "ekmek", "quantity": 1 }
-        ],
-        "price": 106
-      },
-
-    "menü_2": {
-        "description": "1 Etsiz Yemek, 1 Yan Yemek, 1 Su, 1 Ekmek ",
-        "items": [
-            { "category": "etsiz_yemek", "quantity": 1 },
-            { "category": "yardımcı_yemek", "quantity": 1 },
-            { "category": "su", "quantity": 1 },
-            { "category": "ekmek", "quantity": 1 }
-        ],
-        "price": 73
-      },
-      "menü_3": {
-        "description": "1 Etsiz Yemek, 1 Su, 1 Ekmek ",
-        "items": [
-            { "category": "etsiz_yemek", "quantity": 1 },
-            { "category": "yardımcı_yemek", "quantity": 1 },
-            { "category": "su", "quantity": 1 },
-            { "category": "ekmek", "quantity": 1 }
-        ],
-        "price": 53
-      }
-    }
+[
+  {
+    "name": "Izgara Köfte",
+    "calories": 370,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Tavuk Sote",
+    "calories": 345,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Patlıcan Musakka",
+    "calories": 300,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Tavuk Döner",
+    "calories": 480,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "İzmir Köfte",
+    "calories": 385,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Piliç Graten",
+    "calories": 330,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Etli Kuru Fasulye",
+    "calories": 315,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Etli Bezelye",
+    "calories": 270,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Tavuk Biftek Izgara",
+    "calories": 345,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Etli Patates",
+    "calories": 285,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Karışık Musakka",
+    "calories": 320,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Piliç Nugget",
+    "calories": 430,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Sulu Köfte",
+    "calories": 395,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Kağıt Kebabı",
+    "calories": 435,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Et Döner",
+    "calories": 415,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Köri Soslu Piliç",
+    "calories": 320,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Gondol Köfte",
+    "calories": 335,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Ali Nazik",
+    "calories": 340,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Hasan Paşa Köfte",
+    "calories": 320,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Kayseri Mantısı",
+    "calories": 485,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Tavuk Kroket",
+    "calories": 442,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Püreli Rosto Köfte",
+    "calories": 315,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Sebzeli Tavuk Sote",
+    "calories": 430,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "İçli Köfte",
+    "calories": 233,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Sahan Köfte",
+    "calories": 360,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Soslu Köfte",
+    "calories": 275,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Fırın Kanat",
+    "calories": 360,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Fırın But",
+    "calories": 410,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Izgara Biftek",
+    "calories": 345,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Piliç Julien",
+    "calories": 345,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Etli Çerkez Kebabı",
+    "calories": 266,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Tas Kebabı",
+    "calories": 400,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Piliç Şiş",
+    "calories": 326,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Rosto Köfte",
+    "calories": 235,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Fırın Baget",
+    "calories": 330,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Arnavut Ciğeri",
+    "calories": 370,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Tavuk Julien",
+    "calories": 280,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Kır Köftesi",
+    "calories": 360,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Orman Kebabı",
+    "calories": 295,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Püreli Tavuk Izgara",
+    "calories": 420,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Tavuklu Patates Yemeği",
+    "calories": 420,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Püreli Tavuk",
+    "calories": 410,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Balık Tava",
+    "calories": 370,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Lahmacun",
+    "calories": 449,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Mantarlı Tavuk",
+    "calories": 360,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Etli Nohut",
+    "calories": 320,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
+    "name": "Barbunya",
+    "calories": 260,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Kuru Fasulye",
+    "calories": 260,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Pırasa",
+    "calories": 200,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Karnabahar Graten",
+    "calories": 220,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Fırın Patates",
+    "calories": 326,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Fırın Nohut",
+    "calories": 320,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Yaprak Sarma",
+    "calories": 210,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Taze Fasulye",
+    "calories": 165,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Ispanak",
+    "calories": 210,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Dolma",
+    "calories": 222,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Karışık Kızartma",
+    "calories": 405,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
+  },
+  {
+    "name": "Bulgur Pilavı",
+    "calories": 270,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Pirinç Pilavı",
+    "calories": 420,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Nohutlu Pilav",
+    "calories": 410,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Mantarlı Makarna",
+    "calories": 255,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Napoliten soslu spagetti",
+    "calories": 230,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Zeytinyağlı Taze Fasulye",
+    "calories": 135,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Salçalı Boncuk Makarna",
+    "calories": 265,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Havuçlı Pilav",
+    "calories": 395,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Soslu Makarna",
+    "calories": 265,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Su Böreği",
+    "calories": 363,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Pizza",
+    "calories": 360,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Turşulu Patates Salatası",
+    "calories": 240,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yan_yemek"
+  },
+  {
+    "name": "Mercimek Çorbası",
+    "calories": 155,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Ezogelin Çorbası",
+    "calories": 165,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Sebze Çorbası",
+    "calories": 120,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Analı Kızlı Çorbas",
+    "calories": 155,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Tel Şehriye Çorbası",
+    "calories": 160,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Patates Ezme Çorbası",
+    "calories": 160,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Patates Çorbası",
+    "calories": 150,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Yayla Çorbası",
+    "calories": 140,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Domates Çorbası",
+    "calories": 150,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Ayranaşı Çorbası",
+    "calories": 160,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Kremalı Mantar Çorbası",
+    "calories": 105,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Kremalı Ispanak Çorbası",
+    "calories": 120,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Yeşil Mercimek Çorbası",
+    "calories": 160,
+    "price": 26,
+    "category": "yardımcı_yemek",
+    "type": "çorba"
+  },
+  {
+    "name": "Şam Tatlısı",
+    "calories": 430,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Fırın Sütlaç",
+    "calories": 300,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Çikolatalı Muss",
+    "calories": 275,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Browni",
+    "calories": 319,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Puding",
+    "calories": 500,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Burma Kadayıf",
+    "calories": 390,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Havuç Dilimi",
+    "calories": 319,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Trileçe",
+    "calories": 301,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Tulumba",
+    "calories": 366,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Sütlaç",
+    "calories": 220,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Meyveli Muhallebi",
+    "calories": 250,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Revani",
+    "calories": 430,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Sütlü Nuriye",
+    "calories": 369,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Dilim Pasta",
+    "calories": 420,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Çikolatalı Baklava",
+    "calories": 368,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Çikolatalı İrmik Tatlısı",
+    "calories": 405,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Şekerpare",
+    "calories": 295,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Kakaolu Dilim Pasta",
+    "calories": 295,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Kadayıf",
+    "calories": 350,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Şöbiyet",
+    "calories": 370,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Has Bahçe Tatlısı",
+    "calories": 405,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Kıbrıs Tatlısı",
+    "calories": 300,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Maraş Halka",
+    "calories": 305,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Baklava",
+    "calories": 370,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Supangle",
+    "calories": 515,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Bülbül Yuvası",
+    "calories": 385,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Helva",
+    "calories": 281,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Kabak Tatlısı",
+    "calories": 275,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
+    "name": "Ayran",
+    "calories": 80,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Limonata",
+    "calories": 73,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Kola",
+    "calories": 106,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Şalgam",
+    "calories": 90,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Portakallı Gazoz",
+    "calories": 106,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Soğuk Çay",
+    "calories": 55,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Meyve Suyu",
+    "calories": 94,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Link Meyve Suyu",
+    "calories": 98,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Komposto",
+    "calories": 155,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Cacık",
+    "calories": 110,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Gazoz",
+    "calories": 106,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Armut",
+    "calories": 110,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "meyve"
+  },
+  {
+    "name": "Elma",
+    "calories": 78,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "meyve"
+  },
+  {
+    "name": "Muz",
+    "calories": 104,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "meyve"
+  },
+  {
+    "name": "Portakal",
+    "calories": 62,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "meyve"
+  },
+  {
+    "name": "Mandalina (2adet)",
+    "calories": 90,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "meyve"
+  },
+  {
+    "name": "Salata",
+    "calories": 105,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Mevsim Salata",
+    "calories": 85,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Amerikan Salatası",
+    "calories": 245,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Söğüş Salata",
+    "calories": 40,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Turşu",
+    "calories": 28,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Mısırlı Çoban Salata",
+    "calories": 85,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Zeytinyağlı Sebze Salatası",
+    "calories": 120,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Yoğurtlu Semizotu Salatası",
+    "calories": 120,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Büyük Boy Salata",
+    "calories": 250,
+    "price": 92,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Yoğurt",
+    "calories": 126,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "yogurt"
+  },
+  {
+    "name": "Çiğköfte",
+    "calories": 200,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "Aperatif"
+  },
+  {
+    "name": "Kısır",
+    "calories": 179,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "Aperatif"
+  },
+  { "name": "Su", "calories": 0, "price": 5, "category": "su", "type": "" },
+  {
+    "name": "Tam Buğday Ekmeği",
+    "calories": 126,
+    "price": 5,
+    "category": "ekmek",
+    "type": ""
+  },
+  {
+    "name": "Beyaz Ekmek",
+    "calories": 128,
+    "price": 5,
+    "category": "ekmek",
+    "type": ""
   }
-  
+]
