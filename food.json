@@ -7,6 +7,13 @@
     "type": "etli_yemek"
   },
   {
+    "name": "Sinitzel",
+    "calories": 480,
+    "price": 100,
+    "category": "ana_yemek",
+    "type": "etli_yemek"
+  },
+  {
     "name": "Tavuk Sote",
     "calories": 345,
     "price": 100,
