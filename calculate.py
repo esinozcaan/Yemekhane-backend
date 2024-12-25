@@ -59,7 +59,7 @@ def calculate_result(
 
     detected_items = Items(
         total_calories=total_calories, 
-        total_price=total_price if detected_menu is None else detected_menu.price, 
+        total_price=total_price, 
         result=result_expanded
     )
     return (
