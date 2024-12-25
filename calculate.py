@@ -51,7 +51,7 @@ def calculate_result(
     total_calories, total_price, result_expanded = summary(result_dict, food_items)
 
     detected_items = Items(
-        calories=total_calories, price=total_price, result_expanded=result_expanded
+        total_calories=total_calories, total_price=total_price, result=result_expanded
     )
 
     detected_menu = detect_menu(result_expanded, menu_list)

@@ -20,7 +20,7 @@ class ResultExpandedItem(BaseModel):
 class Items(BaseModel):
     total_calories: int
     total_price: int
-    result_expanded: List[ResultExpandedItem]
+    result: List[ResultExpandedItem]
 
 
 class ResponseModel(BaseModel):
