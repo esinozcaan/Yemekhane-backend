@@ -1,13 +1,17 @@
+# uvicorn main:app
+
 import os
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 import numpy as np
-import uvicorn
 from io import BytesIO
 from fastapi.responses import FileResponse
 from ultralytics import YOLO
 from PIL import Image
 import json
+from calculate import *
+from model import *
+import traceback
 
 app = FastAPI()
 
@@ -35,10 +39,8 @@ except Exception as e:
 with open("food.json", "r", encoding="utf-8") as file:
     food_items = json.load(file)
 
-with open("menu.json", "r", encoding="utf-8") as file:
-    menu = json.load(file)
 
-@app.post("/predict")
+@app.post("/predict", response_model=ResponseModel)
 async def predict(file: UploadFile = File(...)):
     if model is None:
         return {"error": "Model yüklenemedi. Lütfen daha sonra tekrar deneyin."}
@@ -65,12 +67,19 @@ async def predict(file: UploadFile = File(...)):
                 else:
                     detections[class_name] = 1
 
-        return {
-            "detections": detections,
-            "annotated_image_path": f"{random_name}.png",
-        }
+        result, menu = calculate_result(detections, food_items)
+
+        annotated_image_path = f"{random_name}.png"
+
+        return ResponseModel(
+            items=result,
+            menu=menu,
+            annotated_image_path=annotated_image_path,
+        )
+
     except Exception as e:
-        return {"error": f"Bir hata oluştu: {e}"}
+        tb = traceback.format_exc()
+        return ResponseModel(error=str(tb))
 
 
 @app.get("/{image_path}")
@@ -78,7 +87,3 @@ async def get_image(image_path):
 
     return FileResponse(f"{image_path}")
 
-
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
