@@ -26,5 +26,7 @@ class Items(BaseModel):
 class ResponseModel(BaseModel):
     items: Optional[Items] = None
     menu: Optional[Menu] = None
+    savings: Optional[int] = None
+    savings_percent: Optional[float] = None
     annotated_image_path: Optional[str] = None
     error: Optional[str] = None

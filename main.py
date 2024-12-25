@@ -67,14 +67,17 @@ async def predict(file: UploadFile = File(...)):
                 else:
                     detections[class_name] = 1
 
-        result, menu = calculate_result(detections, food_items)
+        result, menu, savings, savings_percent = calculate_result(detections, food_items)
 
+    
         annotated_image_path = f"{random_name}.png"
 
         return ResponseModel(
             items=result,
             menu=menu,
             annotated_image_path=annotated_image_path,
+            savings=savings,
+            savings_percent=savings_percent,
         )
 
     except Exception as e:

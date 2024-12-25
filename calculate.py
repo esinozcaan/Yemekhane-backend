@@ -6,7 +6,7 @@ menu_list = {
         "description": "1 Ana Yemek, 3 Yan Yemek",
         "items": {
             "ana_yemek": 1,
-            "yardımcı_yemek": 3,
+            "yardimci_yemek": 3,
             "etli_yemek": 0,
             "etsiz_yemek": 0,
         },
@@ -17,7 +17,7 @@ menu_list = {
         "items": {
             "etli_yemek": 1,
             "etsiz_yemek": 0,
-            "yardımcı_yemek": 1,
+            "yardimci_yemek": 1,
             "ana_yemek": 0,
         },
         "price": 106,
@@ -26,7 +26,7 @@ menu_list = {
         "description": "1 Etsiz Yemek, 1 Yan Yemek",
         "items": {
             "etsiz_yemek": 1,
-            "yardımcı_yemek": 1,
+            "yardimci_yemek": 1,
             "etli_yemek": 0,
             "ana_yemek": 0,
         },
@@ -36,7 +36,7 @@ menu_list = {
         "description": "1 Etsiz Yemek",
         "items": {
             "etsiz_yemek": 1,
-            "yardımcı_yemek": 0,
+            "yardimci_yemek": 0,
             "etli_yemek": 0,
             "ana_yemek": 0,
         },
@@ -47,17 +47,26 @@ menu_list = {
 
 def calculate_result(
     result_dict: dict, food_items: list
-) -> tuple[Items, Menu | None]:
+) -> tuple[Items, Menu | None, int, float]:
     total_calories, total_price, result_expanded = summary(result_dict, food_items)
 
-    detected_items = Items(
-        total_calories=total_calories, total_price=total_price, result=result_expanded
-    )
-
     detected_menu = detect_menu(result_expanded, menu_list)
+    savings = 0
+    savings_percent = 0
+    if detected_menu:
+        savings = total_price - detected_menu.price
+        savings_percent = (savings / total_price) * 100
+
+    detected_items = Items(
+        total_calories=total_calories, 
+        total_price=total_price if detected_menu is None else detected_menu.price, 
+        result=result_expanded
+    )
     return (
         detected_items,
-        detected_menu
+        detected_menu,
+        savings,
+        savings_percent,
     )
 
 
@@ -92,7 +101,7 @@ def detect_menu(result_expanded, menu) -> Menu | None:
     for item in result_expanded:
         if item["category"] == "ana_yemek":
             ana_yemek_count += item["count"]
-        elif item["category"] == "yardımcı_yemek":
+        elif item["category"] == "yardimci_yemek":
             yardimci_yemek_count += item["count"]
         elif item["type"] == "etli_yemek":
             etli_yemek_count += item["count"]
@@ -102,7 +111,7 @@ def detect_menu(result_expanded, menu) -> Menu | None:
     for menu_name in menu:
         if (
             ana_yemek_count == menu[menu_name]["items"]["ana_yemek"]
-            and yardimci_yemek_count == menu[menu_name]["items"]["yardımcı_yemek"]
+            and yardimci_yemek_count == menu[menu_name]["items"]["yardimci_yemek"]
             and etli_yemek_count == menu[menu_name]["items"]["etli_yemek"]
             and etsiz_yemek_count == menu[menu_name]["items"]["etsiz_yemek"]
         ):

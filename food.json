@@ -324,77 +324,77 @@
   {
     "name": "Barbunya",
     "calories": 260,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Kuru Fasulye",
     "calories": 260,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Pirasa",
     "calories": 200,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Karnabahar Graten",
     "calories": 220,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Firin Patates",
     "calories": 326,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Firin Nohut",
     "calories": 320,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Yaprak Sarma",
     "calories": 210,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Taze Fasulye",
     "calories": 165,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Ispanak",
     "calories": 210,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Dolma",
     "calories": 222,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
   {
     "name": "Karisik Kizartma",
     "calories": 405,
-    "price": 100,
+    "price": 53,
     "category": "ana_yemek",
     "type": "etsiz_yemek"
   },
@@ -569,9 +569,9 @@
   {
     "name": "Yesil Mercimek Corbasi",
     "calories": 160,
-    "price": 26,
-    "category": "yardimci_yemek",
-    "type": "corba"
+    "price": 53,
+    "category": "ana_yemek",
+    "type": "etsiz_yemek"
   },
   {
     "name": "Sam Tatlisi",
