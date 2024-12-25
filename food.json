@@ -1,4 +1,3 @@
-
 [
   {
     "name": "Izgara Köfte",
@@ -428,7 +427,7 @@
     "type": "yan_yemek"
   },
   {
-    "name": "Napoliten soslu spagetti",
+    "name": "Spagetti",
     "calories": 230,
     "price": 33,
     "category": "yardımcı_yemek",
@@ -764,6 +763,13 @@
     "type": "tatlı"
   },
   {
+    "name": "Ekmek Kadayıfı",
+    "calories": 177,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "tatlı"
+  },
+  {
     "name": "Kabak Tatlısı",
     "calories": 275,
     "price": 33,
@@ -829,6 +835,13 @@
   {
     "name": "Komposto",
     "calories": 155,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "içecek"
+  },
+  {
+    "name": "Maden Suyu",
+    "calories": 0,
     "price": 33,
     "category": "yardımcı_yemek",
     "type": "içecek"
@@ -939,9 +952,23 @@
     "type": "salata"
   },
   {
+    "name": "Yoğurtlu Patates Püresi",
+    "calories": 120,
+    "price": 33,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
     "name": "Büyük Boy Salata",
     "calories": 250,
     "price": 92,
+    "category": "yardımcı_yemek",
+    "type": "salata"
+  },
+  {
+    "name": "Patlıcanlı Meze",
+    "calories": 100,
+    "price": 33,
     "category": "yardımcı_yemek",
     "type": "salata"
   },
